@@ -1,0 +1,129 @@
+**** Schedule Grid ****
+1200	Order Trusses	1	1 - Work      														
+1300	Order Doors & Windows	1	1 - Work      														
+1400	Order Flooring	1	1 - Work      														
+1500	Order Cabinets	1	1 - Work      														
+3000	Layout	2	1 - Work      														
+3100	Trenching	4	1 - Work      														
+3200	Foundation Form/Reinf.	8	1 - Work      														
+3800	Flatwork Prep	3	1 - Work      														
+3300	In-Concrete Plumbing	1	1 - Work      														
+3400	In-Concrete Electrical	1	1 - Work      														
+3500	Pre-Pour Inspection	1	2 - Inspect   														
+3600	Foundation & Slab Pour	2	1 - Work      														
+3700	Cure / Strip Forms	1	1 - Work      														
+6600	Wall Layout	1	1 - Work      														
+6700	Wall  Framing	27	1 - Work      														
+6800	Plumb & Align Walls	3	1 - Work      														
+6900	Wall Sheeting	5	1 - Work      														
+8200	Trusses / Roof Framing	13	1 - Work      														
+8300	Roof Sheeting	5	1 - Work      														
+8000	Windows	5	1 - Work      														
+8500	Set Exterior Doors	2	1 - Work      														
+9000	HVAC Rough-In	4	1 - Work      														
+9100	In-Wall Plumbing	4	1 - Work      														
+9200	In-Wall Electrical	3	1 - Work      														
+9300	In-Wall Inspection	1	2 - Inspect   														
+9400	Wall Insulation	3	1 - Work      														
+9500	Drywall	14	1 - Work      														
+9700	Stucco	17	1 - Work      														
+9800	Ceiling	7	1 - Work      														
+10000	Gutters	1	1 - Work      														
+10100	Roofing	10	1 - Work      														
+10200	Exterior Paint	9	1 - Work      														
+11000	Interior Doors & Trim	7	1 - Work      														
+11100	Interior  Paint	15	1 - Work      														
+11200	Cabinets/Countertops	3	1 - Work      														
+11300	Tile	3	1 - Work      														
+11500	Flooring	5	1 - Work      														
+11600	Plumbing Fixtures	2	1 - Work      														
+11700	Electrical Trim	4	1 - Work      														
+11800	HVAC Trim	3	1 - Work      														
+14000	Utilities Hookup	1	1 - Work      														
+15000	Walk-Through	1	1 - Work      														
+15200	Punch	5	1 - Work      														
+16000	Final	1	1 - Work      														
+
+**** Employees ****
+
+**** Equipment ****
+
+**** Subcontractors ****
+
+**** Predecessors ****
+ 2100	 2200	 1	 0	201	1			 0	 0
+ 2200	 1900	 2	 1	201	1			 0	 0
+ 3100	 3000	 1	 0	201	1		Layout	 2451997	 2451998
+ 3200	 3100	 1	-2	201	1		Trenching	 2451999	 2452004
+ 3800	 3200	 1	 0	201	1		Foundation Form/Reinf.	 2452003	 2452012
+ 3300	 3800	 1	 0	201	1		Flatwork Prep	 2452013	 2452017
+ 3400	 3300	 1	 0	201	1		In-Concrete Plumbing	 2452018	 2452018
+ 3500	 3400	 1	 0	201	1		In-Concrete Electrical	 2452019	 2452019
+ 3600	 3500	 1	 0	201	1		Pre-Pour Inspection	 2452020	 2452020
+ 3700	 3600	 1	 3	201	1		Foundation & Slab Pour	 2452023	 2452024
+ 6600	 3700	 1	 0	201	1		Cure / Strip Forms	 2452030	 2452030
+ 6700	 6600	 1	 0	201	1		Wall Layout	 2452031	 2452031
+ 6800	 6700	 1	 0	201	1		Wall  Framing	 2452032	 2452069
+ 6900	 6800	 1	 0	201	1		Plumb & Align Walls	 2452072	 2452074
+ 8200	 6900	 1	 0	201	1		Wall Sheeting	 2452075	 2452081
+ 8200	 1200	 1	 15	201	1		Order Trusses	 2451991	 2451991
+ 8300	 8200	 1	 0	201	1		Trusses / Roof Framing	 2452082	 2452102
+ 8000	 8300	 1	 0	201	1		Roof Sheeting	 2452103	 2452109
+ 8000	 1300	 1	 10	201	1		Order Doors & Windows	 2451991	 2451991
+ 8500	 8300	 1	 0	201	1		Roof Sheeting	 2452103	 2452109
+ 8500	 1300	 1	 10	201	1		Order Doors & Windows	 2451991	 2451991
+ 9000	 8500	 1	 0	201	1		Set Exterior Doors	 2452110	 2452111
+ 9000	 8000	 1	 0	201	1		Windows	 2452110	 2452116
+ 9100	 9000	 1	 0	201	1		HVAC Rough-In	 2452117	 2452122
+ 9200	 9100	 1	 0	201	1		In-Wall Plumbing	 2452123	 2452128
+ 9300	 9200	 1	 0	201	1		In-Wall Electrical	 2452129	 2452131
+ 9400	 9300	 1	 0	201	1		In-Wall Inspection	 2452132	 2452132
+ 9500	 9400	 1	 0	201	1		Wall Insulation	 2452135	 2452137
+ 9700	 8000	 1	 0	201	1		Windows	 2452110	 2452116
+ 9700	 8500	 1	 0	201	1		Set Exterior Doors	 2452110	 2452111
+ 9800	 9500	 1	 0	201	1		Drywall	 2452138	 2452158
+ 10000	 8300	 1	 0	201	1		Roof Sheeting	 2452103	 2452109
+ 10100	 10000	 1	 0	201	1		Gutters	 2452110	 2452110
+ 0	 10100	 1	 0	201	1		Roofing	 2452111	 2452124
+ 0	 9700	 1	 0	201	1		Stucco	 2452117	 2452139
+ 0	 2100	 1	 0	201	1		None	 0	 0
+ 11000	 9800	 1	 0	201	1		Ceiling	 2452159	 2452167
+ 11100	 11000	 1	 0	201	1		Interior Doors & Trim	 2452170	 2452178
+ 11100	 10200	 1	 0	201	1		Exterior Paint	 2452142	 2452152
+ 11200	 11100	 1	 0	201	1		Interior  Paint	 2452179	 2452199
+ 11200	 1500	 1	 30	201	1		Order Cabinets	 2451991	 2451991
+ 11300	 11200	 1	 0	201	1		Cabinets/Countertops	 2452200	 2452202
+ 11500	 11300	 1	 0	201	1		Tile	 2452205	 2452207
+ 11500	 1400	 1	 15	201	1		Order Flooring	 2451991	 2451991
+ 11600	 11500	 1	 0	201	1		Flooring	 2452208	 2452214
+ 11700	 11600	 1	 0	201	1		Plumbing Fixtures	 2452215	 2452216
+ 0	 11700	 1	 0	201	1		Electrical Trim	 2452219	 2452222
+ 12000	 10200	 1	 0	201	1		Exterior Paint	 2452142	 2452152
+ 12100	 12000	 1	 0	201	1		Finish Grading	 2452153	 2452157
+ 12200	 12100	 1	 0	201	1		Paving	 2452158	 2452158
+ 12300	 12200	 1	 0	201	1		Fencing	 2452159	 2452163
+ 0	 11800	 1	 0	201	1		HVAC Trim	 2452223	 2452227
+ 15000	 14000	 1	 0	201	1		Utilities Hookup	 2452228	 2452228
+ 15000	 12300	 1	 0	201	1		Landscaping	 2452164	 2452184
+ 15000	 12100	 1	 0	201	1		Paving	 2452158	 2452158
+ 15200	 15000	 1	 0	201	1		Walk-Through	 2452229	 2452229
+ 16000	 15200	 1	 0	201	1		Punch	 2452230	 2452236
+ 500	 1900	 2	 0	201	1		None	 0	 0
+ 1200	 50	 1	 0	201			Planning	 2451913	 2451926
+ 1900	 50	 1	 0	201			Planning	 2451913	 2451926
+ 1300	 50	 1	 0	201			Planning	 2451913	 2451926
+ 1400	 50	 1	 0	201			Planning	 2451913	 2451926
+ 1500	 50	 1	 0	201			Planning	 2451913	 2451926
+ 3000	 2200	 1	 0	201			Rough  Grading	 2451928	 2451948
+ 10200	 10100	 1	 0	201 - Sparks Hotel	1			 0	 0
+ 10200	 9700	 1	 0	201 - Sparks Hotel	1			 0	 0
+ 0	 2500	 1	 0	201 - Sparks Hotel	0		Utilities	 2451949	 2451964
+ 0	 2500	 1	 0	201 - Sparks Hotel	0		Utilities	 2451949	 2451964
+ 11800	 11700	 1	 0	201 - Sparks Hotel	1			 0	 0
+ 14000	 2500	 1	 0	201 - Sparks Hotel	0		Utilities	 2451949	 2451964
+ 14000	 11800	 1	 0	201 - Sparks Hotel	1			 0	 0
+
+**** Dates ****
+
+**** Zero Line ****
+

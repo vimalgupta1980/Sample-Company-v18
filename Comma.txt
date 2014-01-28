@@ -1,0 +1,6 @@
+Part #, Description, Contractor Price, Retail Price, Unit, Vendor, Vendor Part #
+129823,#3 Rebar (20'),3.15,3.75,Bar,NCS,3/16" Round Sticks
+129824,#4 Rebar (20'),3.60,4.30,Bar,NCS,1/2" Round Sticks
+129825,#5 Rebar (20'),4.25,5.10,Bar,NCS,5/16" Round Sticks
+129826,#6 Rebar (20'),5.15,6.20,Bar,NCS,3/4" Round Sticks
+129828,#8 Rebar (20'),7.35,8.75,Bar,NCS,1" Round Sticks

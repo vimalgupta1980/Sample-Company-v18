@@ -1,0 +1,26 @@
+			POURED FOOTING (RUNNING)																						
+			(Not including excavation)																						
+			Length		LF				FL=Q																
+			Width		Inch				FW=Q																
+			Thickness		Inch				FT=Q																
+			Rebar (runs lenghtwise)		Count				FR=Q																
+		3212	#4 (1/2") Rebar		Each		3.285000		TRB=FR*FL/18,Q=TRB			1 - Sonoma								3200.000 - Foundation Reinforcement	1 - Material	3200 - Foundation Form/Reinf.			
+		3243	3" Dobbie		Each		.276000		Q=FR*FL/4			1 - Sonoma								3200.000 - Foundation Reinforcement	1 - Material	3200 - Foundation Form/Reinf.			
+		3305	5-Sack Concrete		CuYd		60.000000		Q=FL*FW*FT/144/27*1.1			1 - Sonoma								3300.000 - Foundation Cast-in-Place	1 - Material	3600 - Foundation Pour			
+		3350	Concrete Pump Subcontractor		CuYd		10.000000		Q=FL*FW*FT/144/27*1.1			1 - Sonoma								3300.000 - Foundation Cast-in-Place	4 - Subcontract	3600 - Foundation Pour			
+		121	Concrete Labor		MnHrs		30.000000		Q=TRB*.2+FL*FW*FT/144/27*1.1/10*2			1 - Sonoma								3000.000 - CONCRETE	2 - Labor	3200 - Foundation Form/Reinf.			
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+
