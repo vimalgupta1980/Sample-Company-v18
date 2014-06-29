@@ -1,0 +1,7 @@
+03/12/2014 10:42:16;  Supervisor;  1;  Receivable Invoice posted with a transaction date that doesn't match the posting period;  Notification sent to dashboard
+03/12/2014 10:42:16;  Supervisor;  2;  Receivable Invoice posted with a transaction date in the next fiscal year;  Notification sent to dashboard
+06/29/2014 12:04:19;  Supervisor;  1;  Payable Invoice posted with a transaction date that doesn't match the posting period;  Notification sent to dashboard
+06/29/2014 12:04:19;  Supervisor;  2;  Payable Invoice posted with a transaction date in the next fiscal year;  Notification sent to dashboard
+06/29/2014 12:05:01;  Supervisor;  1;  Payable Invoice posted with a transaction date that doesn't match the posting period;  Notification sent to dashboard
+06/29/2014 12:05:01;  Supervisor;  2;  Payable Invoice posted with a transaction date in the next fiscal year;  Notification sent to dashboard
+06/29/2014 12:05:01;  Supervisor;  4;  Payable Invoice posted with job cost without a budget amount;  Notification sent to dashboard

@@ -1,0 +1,5 @@
+ordernum,vendnum,descript,jobnum,price,costcode,costtype,account,subaccount,invoiceno,status_
+35624000,102,Masonry Material,3562,1585.37,4000,2 - Labor,14005,3562,00949046,SEND
+35794000,102,Masonry Material,3579,1768.43,4000,2 - Labor,14005,3579,00948332,SEND
+53674000,102,Masonry Material,5367,2767.43,4000,2 - Labor,14005,5367,00947735,SEND
+58064000,102,Masonry Material,5806,1168.21,4000,2 - Labor,14005,5806,00948272,SEND
